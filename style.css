@@ -1,0 +1,104 @@
+body {
+    background-color: #1a1919;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fafafa;
+}
+
+.titulo {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fafafa;
+    font-weight: bold;
+}
+
+.pesquisaLabel {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fafafa;
+}
+
+.pesquisar {
+    display: block;
+    margin: 10px auto 30px auto;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 2px solid #fafafa;
+    border-radius: 25px;
+    background-color: #2c2c2c;
+    color: #fafafa;
+    width: 50%;
+    max-width: 400px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.pesquisar::placeholder {
+    color: #c0c0c0;
+}
+
+.pesquisar:focus {
+    border-color: #ff9800;
+    background-color: #3c3c3c;
+}
+
+.tituloDestaque, .tituloEmBreve {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+    color: #fafafa;
+    font-weight: bold;
+}
+
+.countainerDestaque, .countainerEmBreve {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 90vw;
+    margin: 0 auto 40px auto;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.412);
+    background-color: #fafafa;
+    gap: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.texto {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 10%;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    color: #333;
+    text-align: center;
+}
+.descricao{
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    color: #333;
+    text-align: center;
+}
+
+.imagem {
+    width: 180px;
+    height: 270px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: 10px;
+}
