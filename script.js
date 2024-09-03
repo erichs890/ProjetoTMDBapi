@@ -103,6 +103,7 @@ nomeInput.addEventListener("input", async () => {
 
                 const descricao = document.createElement("p")
                 descricao.textContent = element.overview
+                descricao.className = "descricao"
 
                 card.append(texto, imagem, descricao)
                 resultadoDestaque.appendChild(card)
